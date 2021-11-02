@@ -263,6 +263,12 @@ textarea {
 
 /* HOMEPAGE */
 
+.content-wrapper {
+  width: 90%;
+  margin: 50px 0;
+}
+
+
 /* HEADER */
 
 header,
@@ -272,15 +278,23 @@ footer {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    width: 90%;
 }
 
+header {
+  padding: 15px 0;
 }
 
 header .content-wrapper {
+  margin: 0;
+  width: 90%;
 
 }
 
 header .header-divider {
+  width: 100%;
+  height: 1px;
+  margin: 10px 0 20px 0;
 
 }
 
@@ -289,16 +303,27 @@ header nav {
     justify-content: space-around;
     align-items: center;
     flex-flow: row wrap;
+    width: 60%;
 
 }
 
+header nav ul {
+  
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  
+}
+
 /* MAIN */
+
 
 .hero-area {
   display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    width: 90%;
 
 }
 
@@ -307,9 +332,11 @@ aside {
     justify-content: left;
     align-items: center;
     flex-flow: row wrap;
+    width: 90%;
 }
 
 .form-description {
+  
 
 }
 
@@ -317,15 +344,27 @@ aside {
 
 }
 
-.features {
-
+.features h2 {
+  margin-bottom: 60px;
 }
+
+.features p {
+  margin: 0;
+}
+
+  .features article {
+    margin: 30px 0;
+  }
+
+
 
 .features .content-wrapper {
   display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    width: 57%;
+    text-align: center;
 
 }
 
@@ -353,7 +392,13 @@ aside {
 
 }
 
-.reviews {
+.reviews h2 {
+  margin-bottom: 40px;
+}
+
+.reviews h3 {
+  width: 55%;
+  margin: 20px 0;
 
 }
 
@@ -362,22 +407,30 @@ aside {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    width: 90%;
 
 }
 
 /* FOOTER */
 
-.footer .content-wrapper {
-
+footer {
+  flex-direction: column;
 }
 
-.footer-content {
+footer p {
+  margin: 0;
+}
+
+footer .content-wrapper {
   display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+  width: 55%;
+    margin: 50px 0;
 
 }
+
 
 .contact {
 
@@ -421,7 +474,8 @@ aside {
 
 }
 
-.contact-section {
+.contact-section p {
+ margin: 0;
 
 }
 
@@ -453,7 +507,12 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 50px 0 0 0;
 
+}
+
+.faq-section h2 {
+  margin-bottom: 40px;
 }
 
 
