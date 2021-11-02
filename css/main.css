@@ -261,3 +261,200 @@ textarea {
   }
 }
 
+/* HOMEPAGE */
+
+/* HEADER */
+
+header,
+footer {
+
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+}
+
+header .content-wrapper {
+
+}
+
+header .header-divider {
+
+}
+
+header nav {
+  display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+
+}
+
+/* MAIN */
+
+.hero-area {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+
+}
+
+aside {
+  display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.form-description {
+
+}
+
+.form {
+
+}
+
+.features {
+
+}
+
+.features .content-wrapper {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+
+}
+
+.location {
+
+}
+
+.rooms {
+
+}
+
+.food {
+
+}
+
+.activities {
+
+}
+
+.retreat-manager {
+
+}
+
+.wifi {
+
+}
+
+.reviews {
+
+}
+
+.reviews .content-wrapper {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+
+}
+
+/* FOOTER */
+
+.footer .content-wrapper {
+
+}
+
+.footer-content {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+
+}
+
+.contact {
+
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+
+}
+
+.social-icons {
+
+}
+
+.copyright {
+
+}
+
+/* ABOUT PAGE */
+
+.mission {
+
+}
+
+.mission .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+
+}
+
+.mission-content {
+
+}
+
+.map {
+
+}
+
+.contact-section {
+
+}
+
+.contact-section .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+
+}
+
+.general-info {
+
+}
+
+.chat-with-us {
+  
+
+}
+
+/* FAQ PAGE */
+
+.faq-section {
+
+}
+
+.faq-section .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+
+}
+
+
+
