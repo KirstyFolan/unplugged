@@ -97,6 +97,64 @@
      Author's custom styles
      ========================================================================== */
   
+  /* General Styles */
+ 
+html {
+  font-size: 16px;
+	
+}
+ 
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+ 
+}
+ 
+ul, 
+ol {
+
+list-style-type: none;
+ 
+}
+ 
+a {
+  color: #e2e3ed;
+  text-decoration: none;
+	
+}
+ 
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 3rem;
+  line-height: 3rem;
+ 
+}
+ 
+h3, 
+h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5rem;
+  line-height: 3rem;
+ 
+}
+ 
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+	
+}
+ 
+ 
+address {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.8em;
+  line-height: 1.5em;
+  font-style:normal;
+
+}
+  
+  
   .content-wrapper {
     width: 90%;
     margin: 50px 0;
