@@ -109,6 +109,14 @@ body {
   font-size: 1rem;
  
 }
+
+img {
+  width: 100%;
+}
+
+figure {
+  margin: 0;
+}
  
 ul, 
 ol {
@@ -134,7 +142,8 @@ h3,
 h4 {
   font-family: 'Open Sans', sans-serif;
   font-size: 1.5rem;
-  line-height: 3rem;
+  line-height: 1.5rem;
+
  
 }
  
@@ -203,6 +212,14 @@ address {
     width: 100%;
     text-transform: uppercase;
   }
+
+  header figure {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
   
   footer {
     flex-direction: column;
@@ -228,12 +245,15 @@ address {
     justify-content: space-around;
     align-items: center;
   }
-  
-  footer .social-icons p {
+
+  footer figure {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+
   }
+  
+  
   
   footer .copyright {
     margin: 20px 0;
@@ -310,6 +330,7 @@ input[type=button] {
   .features article {
     width: 63%;
     margin: 30px 0;
+    text-align: center;
   }
   
   .features .features-items {
@@ -317,11 +338,22 @@ input[type=button] {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    align-content: center;
   }
   
   .features p {
     margin: 0;
   }
+
+  .features figure {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    margin: auto;
+
+}
 
   .features-item-description {
     padding-top: 20px;
@@ -349,6 +381,16 @@ input[type=button] {
     width: 55%;
     margin: 20px 0;
   }
+
+  .reviews figure {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    
+    
+}
   
   /* ==========================================================================
      About Page
@@ -519,6 +561,11 @@ input[type=button] {
       .header-divider {
         display: none;
       }
+
+      header figure {
+        width: 30%;
+       
+    }
       /* Hero Area */
     
       /* Aside */
@@ -556,6 +603,12 @@ input[type=button] {
     
       .reviews article div {
         width: 49%;
+      }
+
+      .reviews figure {
+        width: 60%;
+        margin: auto;
+        padding-right: 10px;
       }
     
       /* Footer */
