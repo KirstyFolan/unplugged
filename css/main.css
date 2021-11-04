@@ -345,14 +345,10 @@ input[type=button] {
     margin: 0;
   }
 
-  .features figure {
-    width: 20%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-    margin: auto;
-
+  
+.features i {
+	font-size: 3.75em;
+        margin-bottom: 40px;
 }
 
   .features-item-description {
