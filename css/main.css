@@ -172,6 +172,7 @@ address {
   
   header {
     padding: 15px 0;
+    background: #202322;
   }
   
   header .content-wrapper {
@@ -200,10 +201,13 @@ address {
     display: flex;
     justify-content: space-around;
     width: 100%;
+    text-transform: uppercase;
   }
   
   footer {
     flex-direction: column;
+    background: #202322;
+    color: white;
   }
   
   footer p {
@@ -233,7 +237,9 @@ address {
   
   footer .copyright {
     margin: 20px 0;
+    text-align: center;
   }
+  
   
   /* -------------------- Mobile Styles - Homepage -------------------- */
   
@@ -243,6 +249,10 @@ address {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+    color: white;
+    background: url(../img/hero-image.png) no-repeat center #333;
+    background-size: cover;
+    height: 500px;
   }
   
   /* Aside */
@@ -252,7 +262,35 @@ address {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    background: #527158;
+    color: white;
   }
+
+aside .form {
+  margin-top: 30px;
+}
+ 
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+  padding: 1em;
+}
+ 
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+}
   
   /* Features */
   
@@ -260,6 +298,9 @@ address {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+    background: url(../img/icon-section-bg.png) center no-repeat #333;
+    color: white;
+    background-size: cover;
   }
   
   .features h2 {
@@ -281,6 +322,14 @@ address {
   .features p {
     margin: 0;
   }
+
+  .features-item-description {
+    padding-top: 20px;
+  }
+
+  .font-awesome-icon {
+    align-content: center;
+  }
   
   /* Reviews */
   
@@ -288,6 +337,8 @@ address {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+    background: #2a423a;
+    color: white;
   }
   
   .reviews h2 {
