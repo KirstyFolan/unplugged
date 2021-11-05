@@ -246,6 +246,18 @@ address {
     align-items: center;
   }
 
+  footer .font-awesome-icon {
+    background-color: #527158;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+   
+    
+  }
+
   footer figure {
     display: flex;
     justify-content: flex-start;
