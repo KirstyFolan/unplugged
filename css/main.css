@@ -662,6 +662,10 @@ input[type=button] {
       footer .copyright {
         width: 100%;
       }
+
+      .social-icons .font-awesome-icon {
+        margin-right: 10px;
+      }
     
       /* ==========================================================================
        About Page
