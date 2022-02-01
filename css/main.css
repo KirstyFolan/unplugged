@@ -120,9 +120,7 @@ figure {
  
 ul, 
 ol {
-
-list-style-type: none;
- 
+  list-style-type: none;
 }
  
 a {
@@ -135,23 +133,19 @@ h2 {
   font-family: 'Open Sans', sans-serif;
   font-size: 3rem;
   line-height: 3rem;
- 
 }
  
 h3, 
 h4 {
   font-family: 'Open Sans', sans-serif;
   font-size: 1.5rem;
-  line-height: 1.5rem;
-
- 
+  line-height: 1.5rem; 
 }
  
 p {
   font-family: 'Open Sans', sans-serif;
   font-size: 0.8rem;
   line-height: 1.2rem;
-	
 }
  
  
@@ -160,7 +154,6 @@ address {
   font-size: 0.8em;
   line-height: 1.5em;
   font-style:normal;
-
 }
   
   
@@ -252,8 +245,8 @@ address {
     width: 40px;
     height: 40px;
     display: flex;
-  justify-content: center;
-  align-items: center;
+    justify-content: center;
+    align-items: center;
    
     
   }
@@ -296,36 +289,36 @@ address {
     flex-flow: row wrap;
     background: #527158;
     color: white;
-  }
+    }
 
-aside .form {
-  margin-top: 30px;
-}
+  aside .form {
+    margin-top: 30px;
+  }
  
-input[type=text] {
-  box-sizing: border-box;
-  width: 100%;
-  color: #2a423a;
-  font-style: italic;
-  padding: 1em;
-}
- 
-input[type=button] {
-  width: 100%;
-  padding: 20px 0;
-  margin-top: 20px;
-  background-color: #2a423a;
-  font-family: 'Poppins', Helvetica, Arial, sans-serif;
-  font-weight: 500;
-  font-size: 1.125em;
-  color: #e2e3ed;
-  border: none;
-  text-align: center;
-  text-transform: uppercase;
-}
+  input[type=text] {
+    box-sizing: border-box;
+    width: 100%;
+    color: #2a423a;
+    font-style: italic;
+    padding: 1em;
+  }
   
-  /* Features */
-  
+  input[type=button] {
+    width: 100%;
+    padding: 20px 0;
+    margin-top: 20px;
+    background-color: #2a423a;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 1.125em;
+    color: #e2e3ed;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+  }
+    
+    /* Features */
+    
   .features {
     display: flex;
     justify-content: center;
@@ -334,17 +327,17 @@ input[type=button] {
     color: white;
     background-size: cover;
   }
-  
+    
   .features h2 {
     margin-bottom: 60px;
   }
-  
+    
   .features article {
     width: 63%;
     margin: 30px 0;
     text-align: center;
   }
-  
+    
   .features .features-items {
     display: flex;
     justify-content: center;
@@ -352,16 +345,16 @@ input[type=button] {
     flex-flow: row wrap;
     align-content: center;
   }
-  
+    
   .features p {
     margin: 0;
   }
 
-  
-.features i {
-	font-size: 3.75em;
-        margin-bottom: 40px;
-}
+    
+  .features i {
+    font-size: 3.75em;
+    margin-bottom: 40px;
+  }
 
   .features-item-description {
     padding-top: 20px;
@@ -370,9 +363,9 @@ input[type=button] {
   .font-awesome-icon {
     align-content: center;
   }
-  
-  /* Reviews */
-  
+    
+    /* Reviews */
+    
   .reviews {
     display: flex;
     justify-content: center;
@@ -380,11 +373,11 @@ input[type=button] {
     background: #2a423a;
     color: white;
   }
-  
+    
   .reviews h2 {
     margin-bottom: 40px;
   }
-  
+    
   .reviews h3 {
     width: 55%;
     margin: 20px 0;
@@ -396,49 +389,48 @@ input[type=button] {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
-    
-    
-}
+  }
   
   /* ==========================================================================
      About Page
      ========================================================================== */
   
-  .mission {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-    background: #527158;
-    color: white;
-  }
+.mission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  background: #527158;
+  color: white;
+}
 
-  .map-container {
-    position: relative;
-    padding-bottom: 75%;
-    height: 0;
-    overflow: hidden;
-  }
+.map-container {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden;
+}
   
-  .map-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
-  .contact-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-    background: #2a423a;
-    color: white;
-  }
+.map-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  background: #2a423a;
+  color: white;
+}
   
-  .contact-content p {
-    margin: 0;
-  }
+.contact-content p {
+  margin: 0;
+}
   
   /* ==========================================================================
      FAQ Page
@@ -559,113 +551,113 @@ input[type=button] {
      ========================================================================== */
   
      @media only screen and (min-width:768px) {
-      /*Tablet styles here*/
+    /*Tablet styles here*/
     
-      /* General styles */
-      .content-wrapper {
-        max-width: 640px;
-        margin: 100px 0;
-      }
-    
-      /* Header */
-      header {
-        justify-content: space-around;
-        padding: 33px 0;
-      }
-    
-      header .content-wrapper {
-        width: 100%;
-        justify-content: space-between;
-      }
-    
-      header nav {
-        width: 20%;
-      }
-    
-      header nav ul {
-        justify-content: space-between;
-      }
-
-      header nav ul li {
-        padding-right: 10px;
-      }
-    
-      .header-divider {
-        display: none;
-      }
-
-      header figure {
-        width: 30%;
-       
+    /* General styles */
+    .content-wrapper {
+      max-width: 640px;
+      margin: 100px 0;
     }
-      /* Hero Area */
     
-      /* Aside */
-      aside .content-wrapper {
-        margin: 50px 0;
-        display: flex;
-        justify-content: space-between;
-        flex-flow: row wrap;
-      }
+    /* Header */
+    header {
+      justify-content: space-around;
+      padding: 33px 0;
+    }
     
-      aside .content-wrapper .form-description,
-      aside .content-wrapper .form {
-        width: 40%;
-        margin: 0;
-      }
+    header .content-wrapper {
+      width: 100%;
+      justify-content: space-between;
+    }
     
-      /* Features */
-      .features article {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-flow: column wrap;
-        flex-basis: 50%;
-      }
+    header nav {
+      width: 20%;
+    }
+    
+    header nav ul {
+      justify-content: space-between;
+    }
+
+    header nav ul li {
+      padding-right: 10px;
+    }
+    
+    .header-divider {
+      display: none;
+    }
+
+    header figure {
+      width: 30%;
+    }
+
+   /* Hero Area */
+    
+  /* Aside */
+    aside .content-wrapper {
+      margin: 50px 0;
+      display: flex;
+      justify-content: space-between;
+      flex-flow: row wrap;
+    }
+    
+    aside .content-wrapper .form-description,
+    aside .content-wrapper .form {
+      width: 40%;
+      margin: 0;
+    }
+    
+  /* Features */
+    .features article {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: column wrap;
+      flex-basis: 50%;
+    }
       
-      .features .features-item-description {
-        width: 50%;
-      }
+    .features .features-item-description {
+      width: 50%;
+    }
     
-      /* Reviews */
-      .reviews article {
-        display: flex;
-        justify-content: space-between;
-      }
+  /* Reviews */
+    .reviews article {
+      display: flex;
+      justify-content: space-between;
+    }
     
-      .reviews article div {
-        width: 49%;
-      }
+    .reviews article div {
+      width: 49%;
+    }
 
-      .reviews figure {
-        width: 60%;
-        margin: auto;
-        padding-right: 10px;
-      }
+    .reviews figure {
+      width: 60%;
+      margin: auto;
+      padding-right: 10px;
+    }
     
-      /* Footer */
-      footer .content-wrapper {
-        width: 65%;
-        margin: 100px 0;
-      }
+    /* Footer */
+    footer .content-wrapper {
+      width: 65%;
+      margin: 100px 0;
+    }
     
-      .footer-content {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-      }
+    .footer-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
     
-      footer .contact {
-        margin-bottom: 0;
-      }
-    
-      footer .copyright {
-        width: 100%;
-      }
+    footer .contact {
+      margin-bottom: 0;
+    }
+  
+    footer .copyright {
+      width: 100%;
+    }
 
-      .social-icons .font-awesome-icon {
-        margin-right: 10px;
-      }
+    .social-icons .font-awesome-icon {
+      margin-right: 10px;
+    }
     
       /* ==========================================================================
        About Page
@@ -707,7 +699,7 @@ input[type=button] {
       .faq h2 {
         width: 100%;
       }
-    }
+    
   
     @media only screen and (min-width:1200px) {
       /*Desktop styles here*/
@@ -761,8 +753,6 @@ input[type=button] {
       .faq h2 {
         width: 100%;
       }
-    
-    }
     
     /* ==========================================================================
        Print styles.
